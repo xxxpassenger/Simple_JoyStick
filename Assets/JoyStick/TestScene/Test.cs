@@ -24,7 +24,7 @@ public class Test : MonoBehaviour {
         //摇杆最大移动半径 
         joyStick.JoyStickMaxRadius = 110;
         //摇杆最小生效半径
-        joyStick.JoyStickMinRadius = 0;
+        joyStick.JoyStickMinRadius = 0; //0表示只要移动就生效
         //按动时中间按钮的颜色
         joyStick.OnTouchTumbColor = new Color(1f, 0.588f, 0.008f);
         //摇杆动态还是静态
